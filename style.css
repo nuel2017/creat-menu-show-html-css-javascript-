@@ -1,0 +1,138 @@
+@media screen (min-width 768px){
+
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    
+    scroll-behavior: smooth;
+}
+.nav__toggle{
+    color: #000;
+}
+body{
+    margin: 2rem;
+    font-family: ;
+    font-size: .938rem;
+    font-weight: 500;
+    background: linear-gradient(315deg,#ffffff,#fff);
+    color: #191919;
+    line-height: 1.6;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.section{
+    padding: 4rem 0 2rem;
+
+
+}
+.section-title{
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.section-subtitle{
+    display: block;
+    font-size: small;
+    text-align: center;
+    color: #000;
+    margin-bottom: .25rem;
+    font-weight: 700;
+
+
+}
+.bd-grid{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100% - 2rem)
+    margin-left: 2rem;
+    margin-right: 2rem;
+}   
+
+
+.l-header{
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(315deg,#dcdcdc,#d7e1ec);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid;
+}
+.nav{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav__menu{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(315deg,#dcdcdc,#d7e1ec);
+    transition: .5s;
+}
+.nav__close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color:black;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.4);
+	border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__item{
+    margin-bottom:.25rem ;
+}
+.nav__link{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .3s;
+
+}
+.nav__link:hover{
+    color: slategray;
+}
+.nav__toggle{
+    font-size: 1.5rem;
+    color:black;
+    cursor: pointer;
+    
+}
+.show{
+    left: 0;
+}
+.active{
+    color: #191919;
+}
+
+
+
